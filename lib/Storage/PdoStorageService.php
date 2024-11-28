@@ -432,7 +432,7 @@ class PdoStorageService implements StorageServiceInterface
 
 public function oracle_odbc_connect($sql, $params) {
 
-	$conn = oci_connect("xvsfdn", "gm95ku893", "10.128.230.243:9027/ubinedu");
+	$conn = oci_connect("xvsfdn", "5dabd9138980946ccb4b6d4ce316ee27", "10.128.230.243:9027/ubinedu");
 
 
 	if(!$conn) {

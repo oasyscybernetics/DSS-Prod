@@ -1,6 +1,6 @@
 <?php
 
-$conn = oci_connect("xvsfdn", "gm95ku893", "10.128.230.243:9027/ubinedu");
+$conn = oci_connect("xvsfdn", "5dabd9138980946ccb4b6d4ce316ee27", "10.128.230.243:9027/ubinedu");
 
 if(!$conn) {
   echo "Failed to connect to Oracle";
